@@ -60,6 +60,15 @@ button.btn {
 	border:0;
 }
 
+ul#nav-list {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+div#collapsable-nav {
+    padding: 0px;
+}
+
 
 
 
