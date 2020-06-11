@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
 	font-size: 16px;
 	color: #ffffff;
@@ -48,7 +52,7 @@ button.btn {
 	margin-right: 15px;
 }
 
-ul.dropdown-menu {
+#nav-list {
 	width:100%;
 	text-align:center;
 	color: #696969;

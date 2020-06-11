@@ -24,19 +24,24 @@
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
           <div class="navbar-brand"><h1>Food, LLC</h1></div>
-            <button type="button" class="btn btn-default navbar-btn dropdown-toggle pull-right visible-xs" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
               <span class="glyphicon glyphicon-menu-hamburger"></span>
             </button>
-            <ul class="dropdown-menu">
-              <li><a href="#">Chicken</a></li>
-              <li><a href="#">Beef</a></li>
+          </div>
+          <div id="collapsable-nav" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+           <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+              <li><a href="#">Chicken</a>
+              <hr class="visible-xs"></li>
+              <li><a href="#">Beef</a>
+              <hr class="visible-xs"></li>
               <li><a href="#">Sushi</a></li>
             </ul>
       </div>
     </nav>
   </header>
+  <h2 class="text-center">Our Menu</h2>
   <div id="main-content" class="container">
-    <section class="col-xs-12"><h2>Our Menu</h2></section>
+    
     <section class="col-xs-12">
       <h3>Chicken</h3>
       <p>
